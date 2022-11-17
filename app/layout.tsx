@@ -1,5 +1,6 @@
+// These styles apply to every route in the application
+import "./globals.css";
 import Link from "next/link";
-import "../styles/dist.css";
 
 export default function RootLayout({
   children,
